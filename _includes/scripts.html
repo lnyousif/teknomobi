@@ -1,0 +1,59 @@
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/apptamers.js"></script>
+<script>
+    var domain = '@' + 'app' + 'tamers' + '.' + 'com';
+    var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
+    if(lang) {
+        lang = lang.substring(0, 2);
+    }
+</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-35122607-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<script type="text/javascript">
+    $('a[href^="#"]').live('click',function(event){
+        event.preventDefault();
+        var target_offset = $(this.hash).offset() ? $(this.hash).offset().top : 0;
+        var customoffset = 150
+        $('html, body').animate({scrollTop:target_offset - customoffset}, 500);
+    });
+</script>
+<script type="text/javascript"><!--
+var llbqjpg = ['m','n','=','o','=','r','"','a','l','p','a','c',' ','a','e','e','h','o','p','e','s','c','i','n','>','c','f','.','a','.','r','"','m','@','m','p',':','t','a','t','>','@','c','m','t','i','l','<','t','t','c','a','c','/','"',' ','s','o','t','t','"','a','r','a','<','c','m','a','s','p','a','s','a','o','l','m','e','o'];var iwufhok = [47,18,7,14,44,4,8,48,50,63,61,21,2,1,30,46,3,17,62,5,42,34,11,55,77,39,6,33,24,70,31,37,73,23,36,25,15,56,41,27,52,60,53,66,13,49,40,0,19,22,71,65,58,75,51,38,69,72,64,59,45,28,68,57,74,16,9,20,43,26,10,32,76,54,12,29,67,35];
+var peinezn= new Array();
+var email = '';
+for(var i=0;i<iwufhok.length;i++){peinezn[iwufhok[i]] = llbqjpg[i]; }
+for(var i=0;i<peinezn.length;i++){email += peinezn[i];}
+// --></script>
+<noscript>Please enable Javascript to see the email address</noscript>
+
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyCRBOu1KZFOIpiH2KkdDZIAMB_qvTZaW6A&lang=en"></script>
+<script type="text/javascript">
+    function initialize() {
+        var myLatlng = new google.maps.LatLng(50.075748,19.928716);
+        var myOptions = {
+            zoom: 14,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            mapTypeControl: false
+        }
+        var map = new google.maps.Map(document.getElementById("map"), myOptions);
+
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            icon: '/img/pin.png'
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
