@@ -37,23 +37,3 @@ for(var i=0;i<peinezn.length;i++){email += peinezn[i];}
 <noscript>Please enable Javascript to see the email address</noscript>
 
 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyCRBOu1KZFOIpiH2KkdDZIAMB_qvTZaW6A&lang=en"></script>
-<script type="text/javascript">
-    function initialize() {
-        var myLatlng = new google.maps.LatLng(50.075748,19.928716);
-        var myOptions = {
-            zoom: 14,
-            center: myLatlng,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            mapTypeControl: false
-        }
-        var map = new google.maps.Map(document.getElementById("map"), myOptions);
-
-        var marker = new google.maps.Marker({
-            position: myLatlng,
-            map: map,
-            icon: '/img/pin.png'
-        });
-    }
-    google.maps.event.addDomListener(window, 'load', initialize);
-</script>
