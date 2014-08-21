@@ -264,7 +264,7 @@ h1 {
 }
 
 #strip {
-    background: #037a3e;
+    background: steelblue;
     width: 100%;
     height: 5px;
 }
@@ -288,7 +288,7 @@ h1 {
 
 a {
     font-family: Verdana;
-    color: #037a3e;
+    color: steelblue;
     text-decoration: none
 }
 
