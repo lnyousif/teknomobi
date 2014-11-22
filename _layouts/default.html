@@ -1,15 +1,21 @@
-<!doctype html>
-<head>
-    <title>{{ page.title }}</title>
-    <link rel="shortcut icon" href="./favicon.ico">
-    {% include metas.html %}
-    {% include stylesheets.html %}
-    {% include scripts.html %}
-</head>
-<body>
-    {% include nav.html %}
-    {{ content }}
-    <div class="clearfix"></div>
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+    <body id="page-top" class="index">
+
+    {% include header.html %}
+    {% include services.html %}
+    {% include portfolio_grid.html %}
+    {% include about.html %}
+    {% include team.html %}
+    {% include clients.html %}
+    {% include contact.html %}
     {% include footer.html %}
-</body>
+    {% include modals.html %}
+    {% include js.html %}
+
+    </body>
 </html>
