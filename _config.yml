@@ -36,11 +36,9 @@ people:
     - title: linkedin
       url: #
 
-- 
-
-- name: OC Yousif
-  pic: 4
-  position: Lead Designer
+- name: Ghaith Yousif
+  pic: 3
+  position: Lead Developer
   social:
     - title: twitter
       url: #
@@ -49,9 +47,9 @@ people:
     - title: google-plus
       url: #
 
-      name: Ghaith Yousif
-  pic: 3
-  position: Lead Developer
+- name: OC Yousif
+  pic: 4
+  position: Lead Designer
   social:
     - title: twitter
       url: #
