@@ -9,7 +9,7 @@ description: "We build Web applications that improve your business and life"
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 72bcd4
-  secondary: 3663fe  
+  secondary: 3a7ebf   
   secondary-dark: 333
 
 # Team names, titles and social links
