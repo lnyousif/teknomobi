@@ -1,15 +1,15 @@
 ---
-title: 
-subtitle: Website Design
+title: Heineken VIP App
+subtitle: Mobile Web app design and development
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+date: 2011-06-01
+img: heineken.jpg
+thumbnail: heineken-thumbnail.jpeg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: June 2012
+client: Heineken
+category: Mobile & Web Development
+description: We built this app to accompany a marketting campaign that was printed on each Heineken bottle and alow you to win prizes. To adhere to the requirements and limited time we built the app as mobile web app and made sure it work on the all the platforms at that time.
 
 ---
