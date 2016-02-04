@@ -1,0 +1,15 @@
+---
+title: Hormel product Search
+subtitle: Web widget that need to run on many websites
+layout: default
+modal-id: 3
+date: 2011-06-03
+img: hormel.png
+thumbnail: hormel-thumbnail.png
+alt: Product Search Hormel
+project-date: June 2012
+client: Hormel Foods
+category: Web Widget Development
+description: A very chalanging task that required a lot of collaboration as the need to cnetral widdget server that collect data from multiple data sources to be presented as a webservice that implement strong caching as the traffic is very high. the front end was a sophisticated system that included quite few libraries from Google maps injectio to API consumptio added to that full support of all browsers type.
+
+---

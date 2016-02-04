@@ -1,0 +1,15 @@
+---
+title: Kraft Ritz Crackerfuls Hungertude Facebook Game
+subtitle: Facebbok App Development
+layout: default
+modal-id: 2
+date: 2011-06-02
+img: hungertude.png
+thumbnail: hungertude-thumbnail.png
+alt:  Ritz Crackerfuls Hungertude
+project-date: June 2012
+client:  Ritz Crackerfuls (Kraft)
+category: Facebook Development
+description: A game that measured the ability of the participant to fight hunnger in a fun and playful way and share it with their friends on the social network.
+
+---
