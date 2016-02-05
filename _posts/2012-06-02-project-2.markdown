@@ -10,6 +10,6 @@ alt:  Ritz Crackerfuls Hungertude
 project-date: June 2012
 client:  Ritz Crackerfuls (Kraft)
 category: Facebook Development
-description: A game that measured the ability of the participant to fight hunnger in a fun and playful way and share it with their friends on the social network.
+description: A game that measured the ability of the participant to fight hunger in a fun and entertaining way. This included a social media component that allowed users to share their online experience with friends on select social networks.
 
 ---

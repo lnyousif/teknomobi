@@ -10,6 +10,6 @@ alt: Product Search Hormel
 project-date: June 2012
 client: Hormel Foods
 category: Web Widget Development
-description: A very chalanging task that required a lot of collaboration as the need to cnetral widdget server that collect data from multiple data sources to be presented as a webservice that implement strong caching as the traffic is very high. the front end was a sophisticated system that included quite few libraries from Google maps injectio to API consumptio added to that full support of all browsers type.
+description: This project was particuarly challenging as it required a lot of collaboration. It included the need to create a central widdget server that collects data from multiple data sources to be presented as a web service that implements strong caching due to high traffic. The front end was a sophisticated system that included more than several libraries from Google maps injection to API consumption with the full support of all browser types.
 
 ---
