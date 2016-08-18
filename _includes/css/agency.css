@@ -12,6 +12,7 @@ body {
 
 .text-muted {
     color: #777;
+    font-size: medium;
 }
 
 .text-primary {
@@ -336,6 +337,7 @@ section h3.section-subheading {
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;
+    line-height: 1.75;
     font-style: italic;
     font-weight: 400;
 }
