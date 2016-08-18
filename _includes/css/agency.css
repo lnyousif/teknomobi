@@ -24,7 +24,7 @@ p {
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a,
@@ -335,7 +335,7 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 400;
 }
@@ -415,7 +415,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
 }
 
@@ -567,7 +567,7 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 16px;
+        margin-top: 20px;
         font-size: 13px;
         line-height: 18px;
     }
@@ -793,7 +793,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
 }
 
