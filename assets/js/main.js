@@ -3,6 +3,9 @@ $(function ($) {
  
     jQuery(document).ready(function () {
 
+        $("div[data-includeHTML]").each(function () {                
+            $(this).load($(this).attr("data-includeHTML"));
+        });
 
     //   magnific popup activation
     $('.video-play-btn, .play-video').magnificPopup({
