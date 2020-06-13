@@ -2182,7 +2182,9 @@ background-color: white}
             line-height: 34px;
             font-weight: 700;
             text-transform: uppercase;
-            margin-bottom: 4px; }
+            margin-bottom: 4px; 
+            color: white;
+          }
           .play-games .gaming-activities .gaming-activities-inner .single-activities .top-area .right .text {
             font-size: 14px;
             line-height: 24px;
