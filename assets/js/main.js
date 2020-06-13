@@ -2,10 +2,13 @@ $(function ($) {
     "use strict";
  
     jQuery(document).ready(function () {
+    
+    $("head").load("shared/head.html")
 
-        $("div[data-includeHTML]").each(function () {                
-            $(this).load($(this).attr("data-includeHTML"));
-        });
+    $("div[data-includeHTML]").each(function () {                
+        $(this).load($(this).attr("data-includeHTML"));
+    });
+
 
     //   magnific popup activation
     $('.video-play-btn, .play-video').magnificPopup({
