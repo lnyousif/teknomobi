@@ -91,10 +91,11 @@
 function getURL() {
         var url = window.location.href;
         url = trim(url.replace("https://www.tekno.mobi/",""));
-        return (url.length>0)? url : "index.html";
+        url = (url.length>0)? url : "index.html";
+console.log("page url is " +url);
+        return url;
 
     }
 
-$('a[href^="'+getURL()+'"]').addClass( "active" )
-alert(getURL());
+$('a[href^="'+getURL()+'"]').addClass("active")
 </script>
