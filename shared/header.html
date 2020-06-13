@@ -90,7 +90,7 @@
 <script>
 function getURL() {
         var url = window.location.href;
-        url = trim(url.replace("https://www.tekno.mobi/",""));
+        url = url.replace("https://www.tekno.mobi/","").trim();
         url = (url.length>0)? url : "index.html";
 console.log("page url is " +url);
         return url;

@@ -87,12 +87,10 @@ h3,
 h4,
 h5,
 h6 {
-  color: #001F3F;
   font-family: "Ubuntu", sans-serif; }
 
 p {
   font-size: 18px;
-  color: darkblue;
   line-height: 1.625;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
