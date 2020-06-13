@@ -1339,7 +1339,7 @@ background-color: white}
     -webkit-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
-    background: #252f5a;
+    background: #b6c3ff;
     border-radius: 10px; }
     .features .single-feature .icon {
       width: 125px;
@@ -2139,8 +2139,9 @@ background-color: white}
   .play-games .gaming-activities {
     margin-top: -120px; }
     .play-games .gaming-activities .gaming-activities-inner .single-activities {
-    background-image: linear-gradient(#A1AED4,#001F3F);
+    background-color: #A1AED4;
       padding: 0px 30px 20px;
+      HEIGHT: 200px;
       border:2px solid #001F3F; }
       .play-games .gaming-activities .gaming-activities-inner .single-activities .top-area {
         display: -webkit-box;
@@ -2151,7 +2152,7 @@ background-color: white}
         padding-bottom: 10px; }
         .play-games .gaming-activities .gaming-activities-inner .single-activities .top-area .left .icon {
           position: relative;
-          top: -20px;
+          top: -0px;
           text-align: center;
           margin-right: 30px; }
           .play-games .gaming-activities .gaming-activities-inner .single-activities .top-area .left .icon img {
@@ -2162,7 +2163,7 @@ background-color: white}
           .play-games .gaming-activities .gaming-activities-inner .single-activities .top-area .left .icon span {
             font-size: 14px;
             border: 1px solid rgba(255, 255, 255, 0.3);
-            display: inline-block;
+            display: none;
             padding: 0px 10px;
             border-radius: 5px;
             top: -10px;
