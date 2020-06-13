@@ -28,7 +28,7 @@
                         <div class="collapse navbar-collapse fixed-height" id="main_menu">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link active" href="index.html">
+                                    <a class="nav-link" href="index.html">
                                         Home
                                     <div class="mr-hover-effect"></div>
                                     </a><!-- 
@@ -89,9 +89,12 @@
 </header>
 <script>
 function getURL() {
-        alert (window.location.href);
+        var url = window.location.href;
+        url = trim(url.replace("https://www.tekno.mobi/",""));
+        return (url.length>0)? url : "index.html";
+
     }
 
 $('a[href^="index.html"]').addClass( "active" )
-getURL()
+alert(getURL());
 </script>
