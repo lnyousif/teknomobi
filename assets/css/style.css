@@ -306,7 +306,7 @@ select:focus {
   text-transform: uppercase;
   font-weight: 600;
   padding: 14px 35px;
-  display: inline-block;
+  display: none;
   color: #fff;
   border: 0px;
   border-radius: 50px;
@@ -1533,7 +1533,7 @@ background-color: white}
     animation: opacityAnimation 2s linear infinite; }
   .single-game .mybtn2 {
     position: absolute;
-    display: block;
+    display: none;
     height: 50px;
     bottom: -25px;
     left: 50%;
@@ -2137,7 +2137,7 @@ background-color: white}
   .play-games .gaming-activities {
     margin-top: -120px; }
     .play-games .gaming-activities .gaming-activities-inner .single-activities {
-    background-color: #A1AED4;
+    background-color: darkblue;
       padding: 0px 30px 20px;
       HEIGHT: 200px;
       border:2px solid #001F3F; }
